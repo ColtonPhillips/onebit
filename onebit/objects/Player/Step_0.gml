@@ -4,13 +4,11 @@ if (!instance_exists(Camera)) {
 	instance_create(x,y,10,Camera);	
 }
 
-show_debug_message(Controls.sqr(3));
-
-if keyboard_check(vk_left) xUpdate-= xSpeed;
-if keyboard_check(vk_right) xUpdate+= xSpeed;
-if keyboard_check(vk_up) yUpdate-= ySpeed/5;
-if keyboard_check(vk_down) yUpdate+= ySpeed;
-if keyboard_check_pressed(vk_up) yUpdate -= jumpSpeed;
+if Controls.GetLeft() xUpdate-= xSpeed;
+if Controls.GetRight() xUpdate+= xSpeed;
+if Controls.GetUp() yUpdate-= ySpeed/5;
+if Controls.GetDown() yUpdate+= ySpeed;
+if Controls.GetJumpPressed() yUpdate -= jumpSpeed;
 var grav = 0.05;
 yUpdate += grav;
 

@@ -7,6 +7,7 @@
     {"id":{"name":"s_Player","path":"sprites/s_Player/s_Player.yy",},"order":1,},
     {"id":{"name":"s_SolidRed","path":"sprites/s_SolidRed/s_SolidRed.yy",},"order":1,},
     {"id":{"name":"s_MiscControllerIcon","path":"sprites/s_MiscControllerIcon/s_MiscControllerIcon.yy",},"order":1,},
+    {"id":{"name":"s_Controls","path":"sprites/s_Controls/s_Controls.yy",},"order":15,},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},"order":3,},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},"order":0,},
     {"id":{"name":"Camera","path":"objects/Camera/Camera.yy",},"order":0,},

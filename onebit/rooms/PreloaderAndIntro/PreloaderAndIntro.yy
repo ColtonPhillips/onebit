@@ -14,7 +14,7 @@
   ],
   "layers": [
     {"assets":[
-        {"ignore":false,"spriteId":{"name":"s_PreloaderLogo","path":"sprites/s_PreloaderLogo/s_PreloaderLogo.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"inheritItemSettings":false,"x":8.0,"y":32.0,"resourceVersion":"1.0","name":"ColtonPhillipsPresents","tags":[],"resourceType":"GMRSpriteGraphic",},
+        {"spriteId":{"name":"s_PreloaderLogo","path":"sprites/s_PreloaderLogo/s_PreloaderLogo.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":8.0,"y":32.0,"resourceVersion":"1.0","name":"ColtonPhillipsPresents","tags":[],"resourceType":"GMRSpriteGraphic",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"TitleAssets","tags":[],"resourceType":"GMRAssetLayer",},
     {"tilesetId":{"name":"t_SolidRed","path":"tilesets/t_SolidRed/t_SolidRed.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":16,"SerialiseHeight":32,"TileSerialiseData":[
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
