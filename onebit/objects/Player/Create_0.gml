@@ -9,4 +9,4 @@ xSpeed = 0.2;
 ySpeed = 0.1;
 jumpSpeed = 6;
 
-instance_create_depth(x,y,0,Camera);
+Camera.x = x; Camera.y = y;

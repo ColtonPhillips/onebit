@@ -1,8 +1,6 @@
-if keyboard_check_pressed(vk_delete) game_restart();
+show_debug_message(visible);
 
-if (!instance_exists(Camera)) {
-	instance_create(x,y,10,Camera);	
-}
+if keyboard_check_pressed(vk_delete) game_restart();
 
 if Controls.GetLeft() xUpdate-= xSpeed;
 if Controls.GetRight() xUpdate+= xSpeed;
