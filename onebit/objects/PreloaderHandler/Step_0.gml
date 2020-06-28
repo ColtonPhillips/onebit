@@ -1,3 +1,11 @@
+if Transition.GetState() == Transition.TransState.OFF
+	&& Controls.GetAnyKey() 
+	&& alarm[0] != -1 
+{
+		Transition.GotoNext();
+		alarm[0] = -1;
+}
+
 realFudgyness += 0.04 + fudgeFactor;
 if (realFudgyness > 1) {
 

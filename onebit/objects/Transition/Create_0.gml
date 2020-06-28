@@ -9,7 +9,7 @@ enum TransMode {
 
 enum TransState {
 	OFF,
-	TRANSITIONING,
+	PLAYING,
 	COMPLETE,
 }
 
@@ -17,6 +17,14 @@ mode = TransMode.INTO;
 state = TransState.OFF;
 targetRoom = room;
 targetTransition = TransitionSimple;
+
+function GetMode() {
+	return mode;	
+}
+
+function GetState() {
+	return state;
+}
 
 function CompleteTransition() {
 	state = TransState.COMPLETE;	
@@ -32,8 +40,4 @@ function SetTransitionObject(obj) {
 
 function SetRoom(r) {
 	targetRoom = r;	
-}
-
-function GetMode() {
-	return mode;
 }

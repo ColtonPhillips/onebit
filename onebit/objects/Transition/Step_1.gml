@@ -1,7 +1,7 @@
 
 // Starting a Transition Object
 if mode != TransMode.OFF && state == TransState.OFF {
-	state = TransState.TRANSITIONING;
+	state = TransState.PLAYING;
 	// Create the object that will eventually call Transition.SetComplete();
 	instance_create_layer(0,0,"Transition", targetTransition);
 }
