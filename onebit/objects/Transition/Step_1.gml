@@ -22,6 +22,6 @@ if mode != TransMode.OFF && state == TransState.COMPLETE {
 		room_goto(targetRoom);
 	} else if mode == TransMode.RESTART {
 		mode = TransMode.INTO;
-		room_restart(); // might not use this
+		room_restart();
 	}	
 }

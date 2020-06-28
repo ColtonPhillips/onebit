@@ -13,7 +13,7 @@ enum TransState {
 	COMPLETE,
 }
 
-mode = TransMode.OFF;
+mode = TransMode.INTO;
 state = TransState.OFF;
 targetRoom = room;
 targetTransition = TransitionSimple;
