@@ -1,8 +1,8 @@
-alarm[0] = 600;
-alarm[1] = 50;
+alarm[0] = 780;
+alarm[1] = 150;
 alarm[2] = 300;
 
-fudgeFactor = 0.39;
+fudgeFactor = 0.59;
 realFudgyness = 0;
 shift_title = false;
 fading_in = true;
