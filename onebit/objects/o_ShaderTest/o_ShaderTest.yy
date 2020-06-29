@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "onebit",
-    "path": "onebit.yyp",
+    "name": "DitheredShader",
+    "path": "folders/Objects/DitheredShader.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_ShaderTest",

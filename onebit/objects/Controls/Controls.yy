@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Singleton",
-    "path": "folders/Objects/Singleton.yy",
+    "path": "folders/Objects/Controller/Singleton.yy",
   },
   "resourceVersion": "1.0",
   "name": "Controls",

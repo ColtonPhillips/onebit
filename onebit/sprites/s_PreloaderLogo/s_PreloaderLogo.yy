@@ -69,8 +69,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"aa4a5b0e-77f3-4926-8f1a-54229e1be8bd","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "onebit",
-    "path": "onebit.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_PreloaderLogo",

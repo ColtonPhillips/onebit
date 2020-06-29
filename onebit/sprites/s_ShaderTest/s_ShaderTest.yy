@@ -69,8 +69,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b88548b2-d572-4e53-9a8b-5e11e2a6a6bd","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "onebit",
-    "path": "onebit.yyp",
+    "name": "DItheredShader",
+    "path": "folders/Sprites/DItheredShader.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_ShaderTest",

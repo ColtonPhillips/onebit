@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Controllers",
-    "path": "folders/Objects/Controllers.yy",
+    "name": "Controller",
+    "path": "folders/Objects/Controller.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_TileSolidGeneratorController",

@@ -69,8 +69,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e88b2403-714b-410d-91c0-823072c3dcce","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "onebit",
-    "path": "onebit.yyp",
+    "name": "DItheredShader",
+    "path": "folders/Sprites/DItheredShader.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_DitheredTileset",

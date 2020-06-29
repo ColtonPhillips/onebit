@@ -69,8 +69,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3d06f203-10e3-4116-bcb1-59500b8a2b0f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Physics",
+    "path": "folders/Objects/Physics.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_SolidTriangle",

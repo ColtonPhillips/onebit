@@ -148,8 +148,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2855d4dc-b176-4161-b564-7eddb000b6f7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Tile Sets",
-    "path": "folders/Tile Sets.yy",
+    "name": "Solid",
+    "path": "folders/Tile Sets/Solid.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_SolidRed",

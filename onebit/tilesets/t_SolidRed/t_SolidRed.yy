@@ -1586,8 +1586,8 @@
     ],
   },
   "parent": {
-    "name": "Tile Sets",
-    "path": "folders/Tile Sets.yy",
+    "name": "Solid",
+    "path": "folders/Tile Sets/Solid.yy",
   },
   "resourceVersion": "1.0",
   "name": "t_SolidRed",

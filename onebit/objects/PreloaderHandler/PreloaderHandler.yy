@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "Preloader",
+    "path": "folders/Objects/Preloader.yy",
   },
   "resourceVersion": "1.0",
   "name": "PreloaderHandler",

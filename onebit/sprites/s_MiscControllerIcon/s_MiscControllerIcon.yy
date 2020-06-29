@@ -69,8 +69,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ca02dc80-812d-43fd-90c4-57c8df6af449","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Controllers",
-    "path": "folders/Objects/Controllers.yy",
+    "name": "Controller",
+    "path": "folders/Objects/Controller.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_MiscControllerIcon",

@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "Transition",
+    "path": "folders/Objects/Transition.yy",
   },
   "resourceVersion": "1.0",
   "name": "Transition",

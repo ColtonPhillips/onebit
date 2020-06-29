@@ -25,12 +25,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"cd559ee4-04f2-44de-b999-1b464fc52985","path":"sprites/s_PlayerPositionCamera/s_PlayerPositionCamera.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cd559ee4-04f2-44de-b999-1b464fc52985","path":"sprites/s_PlayerPositionCamera/s_PlayerPositionCamera.yy",},"LayerId":{"name":"34c31eaa-5d76-481f-910b-411291d194f7","path":"sprites/s_PlayerPositionCamera/s_PlayerPositionCamera.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_PlayerPositionCamera","path":"sprites/s_PlayerPositionCamera/s_PlayerPositionCamera.yy",},"resourceVersion":"1.0","name":"cd559ee4-04f2-44de-b999-1b464fc52985","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"cd559ee4-04f2-44de-b999-1b464fc52985","path":"sprites/s_CameraPosition/s_CameraPosition.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"cd559ee4-04f2-44de-b999-1b464fc52985","path":"sprites/s_CameraPosition/s_CameraPosition.yy",},"LayerId":{"name":"34c31eaa-5d76-481f-910b-411291d194f7","path":"sprites/s_CameraPosition/s_CameraPosition.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_CameraPosition","path":"sprites/s_CameraPosition/s_CameraPosition.yy",},"resourceVersion":"1.0","name":"cd559ee4-04f2-44de-b999-1b464fc52985","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_PlayerPositionCamera","path":"sprites/s_PlayerPositionCamera/s_PlayerPositionCamera.yy",},
+    "spriteId": {"name":"s_CameraPosition","path":"sprites/s_CameraPosition/s_CameraPosition.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -42,7 +42,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"00fa9923-d83b-48f5-86a9-ba5ee36cfbed","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd559ee4-04f2-44de-b999-1b464fc52985","path":"sprites/s_PlayerPositionCamera/s_PlayerPositionCamera.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"00fa9923-d83b-48f5-86a9-ba5ee36cfbed","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd559ee4-04f2-44de-b999-1b464fc52985","path":"sprites/s_CameraPosition/s_CameraPosition.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -59,9 +59,9 @@
     "yorigin": 3,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_PlayerPositionCamera","path":"sprites/s_PlayerPositionCamera/s_PlayerPositionCamera.yy",},
+    "parent": {"name":"s_CameraPosition","path":"sprites/s_CameraPosition/s_CameraPosition.yy",},
     "resourceVersion": "1.3",
-    "name": "s_PlayerPositionCamera",
+    "name": "s_CameraPosition",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -69,11 +69,11 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"34c31eaa-5d76-481f-910b-411291d194f7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Controller",
+    "path": "folders/Sprites/Controller.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_PlayerPositionCamera",
+  "name": "s_CameraPosition",
   "tags": [],
   "resourceType": "GMSprite",
 }

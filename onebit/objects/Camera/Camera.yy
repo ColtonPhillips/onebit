@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_PlayerPositionCamera",
-    "path": "sprites/s_PlayerPositionCamera/s_PlayerPositionCamera.yy",
+    "name": "s_CameraPosition",
+    "path": "sprites/s_CameraPosition/s_CameraPosition.yy",
   },
   "solid": false,
   "visible": false,

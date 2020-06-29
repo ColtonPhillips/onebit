@@ -69,8 +69,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2fee03e1-58d4-426f-b4cd-4b09bd51c47e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "onebit",
-    "path": "onebit.yyp",
+    "name": "Controller",
+    "path": "folders/Sprites/Controller.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_Controls",
