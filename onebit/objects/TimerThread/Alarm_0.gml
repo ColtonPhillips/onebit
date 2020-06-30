@@ -1,0 +1,2 @@
+callingMethod();
+instance_destroy();

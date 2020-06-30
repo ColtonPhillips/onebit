@@ -1,4 +1,4 @@
-var s = "ABCDEFG\nHIJKLMNOP\nQRSTUV!WXYZ?\n01234567890,./[]\nabcdefghijk\nlmnop\nqrstuvwxyz!"
+var s = "Loading!"
 
 draw_set_font(FontCRSoftsquare);
 draw_set_colour(c_warmred);

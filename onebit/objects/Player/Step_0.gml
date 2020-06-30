@@ -1,5 +1,3 @@
-show_debug_message(visible);
-
 if keyboard_check_pressed(vk_delete) game_restart();
 
 if Controls.GetLeft() xUpdate-= xSpeed;
