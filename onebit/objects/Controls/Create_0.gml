@@ -1,3 +1,10 @@
+isLocked = false;
+
+function Lock() {isLocked = true;}
+function Unlock() {isLocked = false;}
+function ToggleLock() {isLocked = !isLocked;}
+
+
 // key mappings
 left_buttons	= [ ord("A"), vk_left ];
 down_buttons	= [ ord("S"), vk_down ];

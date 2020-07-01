@@ -1,10 +1,11 @@
-if keyboard_check_pressed(vk_delete) game_restart();
+if keyboard_check_pressed(vk_delete) Controls.ToggleLock();
 
 if Controls.GetLeft() xUpdate-= xSpeed;
 if Controls.GetRight() xUpdate+= xSpeed;
 if Controls.GetUp() yUpdate-= ySpeed/5;
 if Controls.GetDown() yUpdate+= ySpeed;
 if Controls.GetJumpPressed() yUpdate -= jumpSpeed;
+
 var grav = 0.05;
 yUpdate += grav;
 

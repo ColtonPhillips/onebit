@@ -1,4 +1,5 @@
 ProcessBeginStep();
+if isLocked return;
 
 // Check all buttons (down)
 if keyboard_check(left_buttons[0]) || keyboard_check(left_buttons[1]) {

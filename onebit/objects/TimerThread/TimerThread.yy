@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Actors",
-    "path": "folders/Objects/Actors.yy",
+    "name": "Controller",
+    "path": "folders/Objects/Controller.yy",
   },
   "resourceVersion": "1.0",
   "name": "TimerThread",

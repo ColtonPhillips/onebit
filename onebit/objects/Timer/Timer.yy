@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Actors",
-    "path": "folders/Objects/Actors.yy",
+    "name": "Singleton",
+    "path": "folders/Objects/Controller/Singleton.yy",
   },
   "resourceVersion": "1.0",
   "name": "Timer",
