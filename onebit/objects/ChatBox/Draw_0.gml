@@ -1,0 +1,1 @@
+// don't run draw_self, or just remove the sprite ;)
