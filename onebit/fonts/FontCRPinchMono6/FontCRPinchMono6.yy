@@ -133,7 +133,7 @@
     "path": "folders/Fonts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "FontCRPinchMono5",
+  "name": "FontCRPinchMono6",
   "tags": [],
   "resourceType": "GMFont",
 }

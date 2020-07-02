@@ -70,7 +70,7 @@
   ],
   "parent": {
     "name": "Controller",
-    "path": "folders/Objects/Controller.yy",
+    "path": "folders/Sprites/Controller.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_MiscControllerIcon",

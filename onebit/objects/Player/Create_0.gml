@@ -10,9 +10,3 @@ ySpeed = 0.1;
 jumpSpeed = 6;
 
 Camera.x = x; Camera.y = y;
-
-c_warmred = $241cee;
-
-function printVariable() {
-	show_debug_message(Camera.x);	
-}

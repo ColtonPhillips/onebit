@@ -9,13 +9,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 8,
+  "bbox_right": 17,
   "bbox_top": 0,
   "bbox_bottom": 9,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 9,
+  "width": 18,
   "height": 10,
   "textureGroupId": {
     "name": "Default",
@@ -25,12 +25,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5a111ff6-35b8-4572-ac98-c39b4a91c9d9","path":"sprites/s_ChatBoxController/s_ChatBoxController.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5a111ff6-35b8-4572-ac98-c39b4a91c9d9","path":"sprites/s_ChatBoxController/s_ChatBoxController.yy",},"LayerId":{"name":"650eedf1-8eca-44b8-b380-70ffb43c29ce","path":"sprites/s_ChatBoxController/s_ChatBoxController.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_ChatBoxController","path":"sprites/s_ChatBoxController/s_ChatBoxController.yy",},"resourceVersion":"1.0","name":"5a111ff6-35b8-4572-ac98-c39b4a91c9d9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"abd48cbe-b9f7-4fc5-ab2d-0d573b9ee5bd","path":"sprites/s_FontMapController/s_FontMapController.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"abd48cbe-b9f7-4fc5-ab2d-0d573b9ee5bd","path":"sprites/s_FontMapController/s_FontMapController.yy",},"LayerId":{"name":"ebbea175-60a1-4f8f-b497-d55e3209f5cf","path":"sprites/s_FontMapController/s_FontMapController.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_FontMapController","path":"sprites/s_FontMapController/s_FontMapController.yy",},"resourceVersion":"1.0","name":"abd48cbe-b9f7-4fc5-ab2d-0d573b9ee5bd","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_ChatBoxController","path":"sprites/s_ChatBoxController/s_ChatBoxController.yy",},
+    "spriteId": {"name":"s_FontMapController","path":"sprites/s_FontMapController/s_FontMapController.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -42,7 +42,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e7650fa1-636b-4f0a-a567-e063166a775b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5a111ff6-35b8-4572-ac98-c39b4a91c9d9","path":"sprites/s_ChatBoxController/s_ChatBoxController.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"07926ee9-01e6-4dff-bcb3-fc1693b964aa","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"abd48cbe-b9f7-4fc5-ab2d-0d573b9ee5bd","path":"sprites/s_FontMapController/s_FontMapController.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -59,21 +59,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_ChatBoxController","path":"sprites/s_ChatBoxController/s_ChatBoxController.yy",},
+    "parent": {"name":"s_FontMapController","path":"sprites/s_FontMapController/s_FontMapController.yy",},
     "resourceVersion": "1.3",
-    "name": "s_ChatBoxController",
+    "name": "s_FontMapController",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"650eedf1-8eca-44b8-b380-70ffb43c29ce","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ebbea175-60a1-4f8f-b497-d55e3209f5cf","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Controller",
     "path": "folders/Sprites/Controller.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_ChatBoxController",
+  "name": "s_FontMapController",
   "tags": [],
   "resourceType": "GMSprite",
 }
