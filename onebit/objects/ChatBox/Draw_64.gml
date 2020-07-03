@@ -14,7 +14,7 @@ var fheight = string_height(longs);
 
 var fheight2 = string_height_ext(longs,fheight, maxwidth);
  // 24 is perfect number, 32 is the bad
-show_debug_message(fheight2);
+// show_debug_message(fheight2);
 draw_text_ext(chatx, chaty, longs, fheight+1, maxwidth);
 
 

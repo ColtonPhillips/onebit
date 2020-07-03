@@ -1,7 +1,8 @@
-visible = true;
+visible = false;
 
 function Enable() {
-	visible = true;	
+	visible = true;
+	Log(room_speed);
 }
 
 function Disable() {
@@ -21,3 +22,9 @@ function DrawSetFont(f, cl) {
 	draw_set_font(font);
 	draw_set_colour(color);
 }
+
+function PlayScript(strScript) {
+	show_debug_message(strScript);
+	Enable();
+}
+Timer.SetTimeout(Milliseconds(1000), function () { Enable();} );
