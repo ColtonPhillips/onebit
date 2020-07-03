@@ -1,3 +1,4 @@
+
 function SplitString(str, delim){
 	var slot = 0;
 	var splits; //array to hold all splits

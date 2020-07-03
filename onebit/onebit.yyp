@@ -5,10 +5,10 @@
     {"id":{"name":"s_DitheredTileset","path":"sprites/s_DitheredTileset/s_DitheredTileset.yy",},"order":1,},
     {"id":{"name":"o_SolidTriangle","path":"objects/o_SolidTriangle/o_SolidTriangle.yy",},"order":2,},
     {"id":{"name":"ChatBox","path":"objects/ChatBox/ChatBox.yy",},"order":2,},
-    {"id":{"name":"Timer","path":"objects/Timer/Timer.yy",},"order":1,},
     {"id":{"name":"Transition","path":"objects/Transition/Transition.yy",},"order":0,},
     {"id":{"name":"s_SolidTriangle","path":"sprites/s_SolidTriangle/s_SolidTriangle.yy",},"order":4,},
     {"id":{"name":"s_PlayerWalk","path":"sprites/s_PlayerWalk/s_PlayerWalk.yy",},"order":0,},
+    {"id":{"name":"scr_FileIO","path":"scripts/scr_FileIO/scr_FileIO.yy",},"order":3,},
     {"id":{"name":"FontCRPinchMono6","path":"fonts/FontCRPinchMono6/FontCRPinchMono6.yy",},"order":1,},
     {"id":{"name":"scr_Time","path":"scripts/scr_Time/scr_Time.yy",},"order":1,},
     {"id":{"name":"TimerThread","path":"objects/TimerThread/TimerThread.yy",},"order":2,},
@@ -105,7 +105,9 @@
   "TextureGroups": [
     {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"test.txt","resourceType":"GMIncludedFile",},
+  ],
   "MetaData": {
     "IDEVersion": "23.1.1.167",
   },

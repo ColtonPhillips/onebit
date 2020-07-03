@@ -1,5 +1,7 @@
-Timer.SetTimeout(
-	100, 
+/* SetInterval(
+	Milliseconds(1000), 
 	function() {
-		show_debug_message("Print message in 100 frames");
+		visible = !visible;
 	});
+	
+	*/

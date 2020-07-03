@@ -1,4 +1,4 @@
-if keyboard_check_pressed(vk_delete) ChatBox.ToggleEnable();
+if keyboard_check_pressed(vk_delete) ChatBox.ToggleVisibility();
 
 if Controls.GetLeft() xUpdate-= xSpeed;
 if Controls.GetRight() xUpdate+= xSpeed;

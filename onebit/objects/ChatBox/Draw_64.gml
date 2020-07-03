@@ -4,19 +4,7 @@ draw_sprite(s_ChatBox, 0, 0, 0);
 var profilex = 4; var profiley = 6;
 draw_sprite(s_PlayerExpression, 3, profilex, profiley);
 
-
-DrawSetFont(FontMap.SmallChatBox, FontMap.White);
-var chatx = 35; var chaty = 4;
-var maxwidth = 91; // seems to be perfect length
-var longs = "A capitalist sends his regards. There is only three hundred of them. I.";
-
-var fheight = string_height(longs);
-
-var fheight2 = string_height_ext(longs,fheight, maxwidth);
- // 24 is perfect number, 32 is the bad
-// show_debug_message(fheight2);
-draw_text_ext(chatx, chaty, longs, fheight+1, maxwidth);
-
+DebugDrawPanelTest();
 
 /*
 // large emphasis text
