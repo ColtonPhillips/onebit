@@ -2,7 +2,6 @@ visible = false;
 
 function Enable() {
 	visible = true;
-	Log(room_speed);
 }
 
 function Disable() {
@@ -27,4 +26,11 @@ function PlayScript(strScript) {
 	show_debug_message(strScript);
 	Enable();
 }
-Timer.SetTimeout(Milliseconds(1000), function () { Enable();} );
+
+function DoIt(str) {
+	var testScript = "  First# we need to keep it rather simple. Then make things harder.";
+	var testArray = SplitString(TrimString(testScript), " ");
+	Log(testArray);
+}
+
+Timer.SetTimeout(Milliseconds(1000), function () { Enable(); DoIt(); } );

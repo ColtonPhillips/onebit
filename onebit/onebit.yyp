@@ -31,6 +31,7 @@
     {"id":{"name":"RoomPreloaderAndIntro","path":"rooms/RoomPreloaderAndIntro/RoomPreloaderAndIntro.yy",},"order":0,},
     {"id":{"name":"s_ShaderTest","path":"sprites/s_ShaderTest/s_ShaderTest.yy",},"order":0,},
     {"id":{"name":"s_ChatBox","path":"sprites/s_ChatBox/s_ChatBox.yy",},"order":0,},
+    {"id":{"name":"scr_Parser","path":"scripts/scr_Parser/scr_Parser.yy",},"order":2,},
     {"id":{"name":"s_PlayerExpression","path":"sprites/s_PlayerExpression/s_PlayerExpression.yy",},"order":0,},
     {"id":{"name":"s_CameraPosition","path":"sprites/s_CameraPosition/s_CameraPosition.yy",},"order":0,},
     {"id":{"name":"Controls","path":"objects/Controls/Controls.yy",},"order":0,},
