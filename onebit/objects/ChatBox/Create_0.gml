@@ -17,19 +17,22 @@ function DrawSetFont(f, cl) {
 panelText = "";
 
 function ParseConversation(str) {
-	str = "  First# we need to keep it rather simple.\n Then make things harder.";
-	var scriptLines = SplitString(TrimString(str), "\n");
+	var scriptLines =	SplitString(
+							TrimString(str, " \r\n")
+						, "\n");
 	Log(scriptLines);
-	
-	str = GetFileAsString("test.txt");
-	scriptLines = SplitString(TrimString(str), "\n");
-	Log(scriptLines);
-	// test set stuff here
 	panelText = scriptLines[0];
-	
 }
 
-SetTimeout(Milliseconds(1000), function () { SetVisible(); ParseConversation("A"); } );
+SetTimeout(Milliseconds(1000), function () {
+_str = @'
+
+First thing we do is have a major new feature in a wacky way! Using all!
+And then we find the...
+Batman!  
+
+';	
+	SetVisible(); ParseConversation(_str); } );
 
 function DebugDrawPanelTest() {
 	DrawSetFont(FontMap.SmallChatBox, FontMap.White);

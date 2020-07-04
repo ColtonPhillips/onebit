@@ -21,24 +21,30 @@ function SplitString(str, delim){
 
 /// @function                 TrimString(str);
 /// @param {string}  str	  The string to trim, duh
-/// @param {string}  char	  The delimiter
+/// @param {string}  char	  The delimiter characters in a string
 /// @param {string}  side	  both, left, or right
 /// @description              return a string with optional trimming baby!
 function TrimString(str) {
 	var char = " ";
 	var side = "both";
-	if argument_count > 2 {
+	if argument_count > 1 {
 		char = argument[1];	
 	}
-	if argument_count > 3 {
+	if argument_count > 2 {
 		side = argument[2];	
 	}
-
+	
 	var new_string = str;
 	if side == "left" or side == "both" {
-		var _start = 0;
+		var _start = 0; var breakLoop = false;
 		for (i=1; i <= string_length(new_string); i++) {
-			if string_char_at(new_string, i) != char {
+			breakLoop = true;
+			for (j=1; j <= string_length(char); j++) {
+				if string_char_at(new_string, i) == string_char_at(char, j) {
+					breakLoop = false;
+				}
+			}
+			if breakLoop {
 				_start = i - 1;
 				break;
 			}
@@ -50,9 +56,15 @@ function TrimString(str) {
 	}
 	
 	if side == "right" or side == "both" {
-		var _end = 0;
+		var _end = 0; breakLoop = false;
 		for(i=string_length(new_string); i > 0; i--) {
-			if string_char_at(new_string, i) != char {
+			breakLoop = true;
+			for (j=1; j <= string_length(char); j++) {
+				if string_char_at(new_string, i) == string_char_at(char, j) {
+					breakLoop = false;
+				}
+			}
+			if breakLoop {
 				_end = i + 1;
 				break;
 			}
