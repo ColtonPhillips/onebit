@@ -1,3 +1,10 @@
+function StringContains(str, char) {
+	if string_pos(char, str) == 0 {
+	   return false;
+   }
+   return true;
+}
+
 
 function SplitString(str, delim){
 	var slot = 0;

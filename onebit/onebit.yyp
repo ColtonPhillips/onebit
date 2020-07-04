@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"o_TileSolidGeneratorController","path":"objects/o_TileSolidGeneratorController/o_TileSolidGeneratorController.yy",},"order":1,},
     {"id":{"name":"o_SolidRectangle","path":"objects/o_SolidRectangle/o_SolidRectangle.yy",},"order":3,},
+    {"id":{"name":"CreditsController","path":"objects/CreditsController/CreditsController.yy",},"order":2,},
     {"id":{"name":"s_DitheredTileset","path":"sprites/s_DitheredTileset/s_DitheredTileset.yy",},"order":1,},
     {"id":{"name":"o_SolidTriangle","path":"objects/o_SolidTriangle/o_SolidTriangle.yy",},"order":2,},
     {"id":{"name":"ChatBox","path":"objects/ChatBox/ChatBox.yy",},"order":2,},
@@ -30,6 +31,7 @@
     {"id":{"name":"s_PreloaderLogo","path":"sprites/s_PreloaderLogo/s_PreloaderLogo.yy",},"order":1,},
     {"id":{"name":"RoomPreloaderAndIntro","path":"rooms/RoomPreloaderAndIntro/RoomPreloaderAndIntro.yy",},"order":0,},
     {"id":{"name":"s_ShaderTest","path":"sprites/s_ShaderTest/s_ShaderTest.yy",},"order":0,},
+    {"id":{"name":"CreditsText","path":"objects/CreditsText/CreditsText.yy",},"order":3,},
     {"id":{"name":"s_ChatBox","path":"sprites/s_ChatBox/s_ChatBox.yy",},"order":0,},
     {"id":{"name":"scr_Parser","path":"scripts/scr_Parser/scr_Parser.yy",},"order":2,},
     {"id":{"name":"s_PlayerExpression","path":"sprites/s_PlayerExpression/s_PlayerExpression.yy",},"order":0,},
@@ -37,6 +39,7 @@
     {"id":{"name":"Controls","path":"objects/Controls/Controls.yy",},"order":0,},
     {"id":{"name":"FontCRSoftsquareMono6","path":"fonts/FontCRSoftsquareMono6/FontCRSoftsquareMono6.yy",},"order":0,},
     {"id":{"name":"s_Timer","path":"sprites/s_Timer/s_Timer.yy",},"order":3,},
+    {"id":{"name":"RoomCredits","path":"rooms/RoomCredits/RoomCredits.yy",},"order":2,},
     {"id":{"name":"s_ChatBoxController","path":"sprites/s_ChatBoxController/s_ChatBoxController.yy",},"order":5,},
     {"id":{"name":"o_Solid","path":"objects/o_Solid/o_Solid.yy",},"order":0,},
     {"id":{"name":"s_SolidRectangle","path":"sprites/s_SolidRectangle/s_SolidRectangle.yy",},"order":1,},
@@ -67,6 +70,7 @@
   "RoomOrder": [
     {"name":"RoomPreloaderAndIntro","path":"rooms/RoomPreloaderAndIntro/RoomPreloaderAndIntro.yy",},
     {"name":"RoomTestingChamber","path":"rooms/RoomTestingChamber/RoomTestingChamber.yy",},
+    {"name":"RoomCredits","path":"rooms/RoomCredits/RoomCredits.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -109,7 +113,7 @@
     {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"test.txt","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
-    "IDEVersion": "23.1.1.167",
+    "IDEVersion": "23.1.1.168",
   },
   "resourceVersion": "1.3",
   "name": "onebit",

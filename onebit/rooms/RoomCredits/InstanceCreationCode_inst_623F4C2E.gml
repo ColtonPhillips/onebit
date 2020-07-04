@@ -1,0 +1,1 @@
+SetInterval(10, function () { x+= random(1); x-= random(1); y -= random(0.01); y+= 0.4; } );

@@ -31,8 +31,8 @@ First thing we do is have a major new feature in a wacky way! Using all!
 And then we find the...
 Batman!  
 
-';	
-	SetVisible(); ParseConversation(_str); } );
+';
+	ParseConversation(_str); } );
 
 function DebugDrawPanelTest() {
 	DrawSetFont(FontMap.SmallChatBox, FontMap.White);

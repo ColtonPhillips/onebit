@@ -34,10 +34,16 @@ function GotoNext() {
 	mode = TransMode.NEXT;	
 }
 
+function SetRoom(r) {
+	targetRoom = r;	
+}
+
+function GotoRoom(rm) {
+	mode = TransMode.GOTO;
+	SetRoom(rm);
+}
+
 function SetTransitionObject(obj) {
 	targetTransition = obj;
 }
 
-function SetRoom(r) {
-	targetRoom = r;	
-}
