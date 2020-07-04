@@ -1,5 +1,4 @@
 creditsString = @'
-
 Story by:
    Colton Phillips
    @ColtonJPhillips
@@ -9,14 +8,13 @@ Code, Art & Design:
 
 Additional Art by:
    Rose D.G.
-   @RoseCuddles
+   @CrowCuddles
    
 Special Thanks:
    Cody Phillips
 ';
 
-creditsPosX = 0;
-creditsPosY = 140;
+
 creditsLines = [];
 count = 0;
 function ParseCredits(str) {
@@ -24,14 +22,15 @@ function ParseCredits(str) {
 							TrimString(str, " \r\n")
 						, "\n");
 	Log(creditsLines);
-	
+	creditsPosX = 0; creditsPosY = 140;
 	for (var i = 0; i < array_length(creditsLines); i++) {
 		SetTimeout(room_speed + Seconds(i*2.5), 
 			function () {
 				var inst = instance_create_depth(creditsPosX, creditsPosY, depth-count, CreditsText);
 				inst.Play(creditsLines[count]);
 				count++;
-			});	
+			}
+		);	
 	}
 }
 

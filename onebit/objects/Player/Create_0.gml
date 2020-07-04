@@ -10,3 +10,5 @@ ySpeed = 0.1;
 jumpSpeed = 6;
 
 Camera.x = x; Camera.y = y;
+
+paused = false;

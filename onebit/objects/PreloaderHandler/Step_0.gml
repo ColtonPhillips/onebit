@@ -2,7 +2,7 @@ if Transition.GetState() == Transition.TransState.OFF
 	&& Controls.GetAnyKey() 
 	&& alarm[0] != -1 
 {
-		Transition.GotoRoom(RoomCredits);
+		Transition.GotoNext();
 		alarm[0] = -1;
 }
 
