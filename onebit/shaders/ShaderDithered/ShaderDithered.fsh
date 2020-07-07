@@ -22,7 +22,8 @@ void main()
 	//					  (mod((v_vTexcoord.y * texSize.y), size.y ) /  (tSize.y * 2.)));
 //	gl_FragColor = vec4(rSize.x, rSize.x, rSize.x, texture2D(gm_BaseTexture, v_vTexcoord ).a);
 	gl_FragColor = texture2D(ditherTex, texcoord + offset);
-	gl_FragColor.a = texture2D(gm_BaseTexture, v_vTexcoord ).a;
+	gl_FragColor = vec4(gl_FragColor.x, gl_FragColor.y, gl_FragColor.z, texture2D(gm_BaseTexture, v_vTexcoord ).a);
+//	gl_FragColor.a = texture2D(gm_BaseTexture, v_vTexcoord ).a;
 	
 	//vec2 offset = vec2(rSize.x * floor(band / height), rSize.y * mod(band, height));
 	//gl_FragColor = texture2D(ditherTex, texcoord + offset);
