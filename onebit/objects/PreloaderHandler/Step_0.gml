@@ -2,7 +2,11 @@ if Transition.GetState() == Transition.TransState.OFF
 	&& Controls.GetAnyKey() 
 	&& alarm[0] != -1 
 {
-		Transition.GotoRoom(RoomTitleScreen);
+		if (keyboard_check(ord("C"))) {
+			Transition.GotoRoom(RoomCredits);
+		} else {
+			Transition.GotoRoom(RoomTitleScreen);
+		}
 		alarm[0] = -1;
 }
 

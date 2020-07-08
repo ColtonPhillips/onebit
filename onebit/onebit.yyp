@@ -75,9 +75,9 @@
   },
   "RoomOrder": [
     {"name":"RoomPreloaderAndIntro","path":"rooms/RoomPreloaderAndIntro/RoomPreloaderAndIntro.yy",},
+    {"name":"RoomTitleScreen","path":"rooms/RoomTitleScreen/RoomTitleScreen.yy",},
     {"name":"RoomTestingChamber","path":"rooms/RoomTestingChamber/RoomTestingChamber.yy",},
     {"name":"RoomCredits","path":"rooms/RoomCredits/RoomCredits.yy",},
-    {"name":"RoomTitleScreen","path":"rooms/RoomTitleScreen/RoomTitleScreen.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
