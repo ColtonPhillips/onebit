@@ -3,8 +3,8 @@ function SetVisible() { visible = true; }
 function SetInvisible() { visible = false; }
 function ToggleVisibility() { visible = !visible; }
 
-font = FontMap.SmallChatBox;
-color = FontMap.WarmRed;
+font = Font.SmallChatBox;
+color = Font.WarmRed;
 
 function DrawSetFont(f, cl) {
 	font = f;
@@ -35,7 +35,7 @@ Batman!
 	ParseConversation(_str); } );
 
 function DebugDrawPanelTest() {
-	DrawSetFont(FontMap.SmallChatBox, FontMap.White);
+	DrawSetFont(Font.SmallChatBox, Font.White);
 	var chatx = 35; var chaty = 4;
 	var maxwidth = 91; // seems to be perfect length
 	var fheight = string_height(panelText);

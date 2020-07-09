@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_FontMapController",
-    "path": "sprites/s_FontMapController/s_FontMapController.yy",
+    "name": "s_FontController",
+    "path": "sprites/s_FontController/s_FontController.yy",
   },
   "solid": false,
   "visible": false,
@@ -21,16 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"FontMap","path":"objects/FontMap/FontMap.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Font","path":"objects/Font/Font.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Controller",
-    "path": "folders/Sprites/Controller.yy",
+    "name": "Text",
+    "path": "folders/Objects/Text.yy",
   },
   "resourceVersion": "1.0",
-  "name": "FontMap",
+  "name": "Font",
   "tags": [],
   "resourceType": "GMObject",
 }

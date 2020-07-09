@@ -1,7 +1,6 @@
 {
   "bboxMode": 0,
   "collisionKind": 1,
-  "separateMasks": false,
   "type": 0,
   "origin": 0,
   "preMultiplyAlpha": false,
@@ -25,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"abd48cbe-b9f7-4fc5-ab2d-0d573b9ee5bd","path":"sprites/s_FontMapController/s_FontMapController.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"abd48cbe-b9f7-4fc5-ab2d-0d573b9ee5bd","path":"sprites/s_FontMapController/s_FontMapController.yy",},"LayerId":{"name":"ebbea175-60a1-4f8f-b497-d55e3209f5cf","path":"sprites/s_FontMapController/s_FontMapController.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_FontMapController","path":"sprites/s_FontMapController/s_FontMapController.yy",},"resourceVersion":"1.0","name":"abd48cbe-b9f7-4fc5-ab2d-0d573b9ee5bd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"abd48cbe-b9f7-4fc5-ab2d-0d573b9ee5bd","path":"sprites/s_FontController/s_FontController.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"abd48cbe-b9f7-4fc5-ab2d-0d573b9ee5bd","path":"sprites/s_FontController/s_FontController.yy",},"LayerId":{"name":"ebbea175-60a1-4f8f-b497-d55e3209f5cf","path":"sprites/s_FontController/s_FontController.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_FontController","path":"sprites/s_FontController/s_FontController.yy",},"resourceVersion":"1.0","name":"abd48cbe-b9f7-4fc5-ab2d-0d573b9ee5bd","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_FontMapController","path":"sprites/s_FontMapController/s_FontMapController.yy",},
+    "spriteId": {"name":"s_FontController","path":"sprites/s_FontController/s_FontController.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -42,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"07926ee9-01e6-4dff-bcb3-fc1693b964aa","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"abd48cbe-b9f7-4fc5-ab2d-0d573b9ee5bd","path":"sprites/s_FontMapController/s_FontMapController.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"07926ee9-01e6-4dff-bcb3-fc1693b964aa","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"abd48cbe-b9f7-4fc5-ab2d-0d573b9ee5bd","path":"sprites/s_FontController/s_FontController.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -59,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_FontMapController","path":"sprites/s_FontMapController/s_FontMapController.yy",},
+    "parent": {"name":"s_FontController","path":"sprites/s_FontController/s_FontController.yy",},
     "resourceVersion": "1.3",
-    "name": "s_FontMapController",
+    "name": "s_FontController",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +72,7 @@
     "path": "folders/Sprites/Controller.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_FontMapController",
+  "name": "s_FontController",
   "tags": [],
   "resourceType": "GMSprite",
 }

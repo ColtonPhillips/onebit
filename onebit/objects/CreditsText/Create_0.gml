@@ -6,8 +6,8 @@ text = "";
 socialMode = false;
 function Play(t) {
 	text = t;
-	draw_set_font(FontMap.LargeCredits);
-	draw_set_color(FontMap.WarmRed);
+	draw_set_font(Font.LargeCredits);
+	draw_set_color(Font.WarmRed);
 	Log(string_width(t));
 	x = padding;
 	y = round(y);
