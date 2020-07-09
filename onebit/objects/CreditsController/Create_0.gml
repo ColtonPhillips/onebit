@@ -22,7 +22,7 @@ function ParseCredits(str) {
 							TrimString(str, " \r\n")
 						, "\n");
 	Log(creditsLines);
-	creditsPosX = 0; creditsPosY = 140;
+	creditsPosX = 33; creditsPosY = 140;
 	for (var i = 0; i < array_length(creditsLines); i++) {
 		SetTimeout(room_speed + Seconds(i*2.5), 
 			function () {

@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "UI",
-    "path": "folders/Sprites/UI.yy",
+    "name": "Credits",
+    "path": "folders/Objects/Credits.yy",
   },
   "resourceVersion": "1.0",
   "name": "CreditsText",

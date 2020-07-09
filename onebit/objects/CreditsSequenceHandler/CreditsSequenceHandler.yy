@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Preloader",
-    "path": "folders/Objects/Preloader.yy",
+    "name": "Credits",
+    "path": "folders/Objects/Credits.yy",
   },
   "resourceVersion": "1.0",
   "name": "CreditsSequenceHandler",

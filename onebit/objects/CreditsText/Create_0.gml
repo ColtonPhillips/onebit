@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 vspeed = -0.0666666666;
-padding = 12;
+padding = 12 + 16;
 text = "";
 socialMode = false;
 function Play(t) {
