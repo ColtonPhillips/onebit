@@ -7,3 +7,7 @@ BannerWidth = BlinderWidth; // I seem to type both :P
 
 DebugMode = true;
 global.debug = DebugMode;
+
+function GetGame() {
+	
+}

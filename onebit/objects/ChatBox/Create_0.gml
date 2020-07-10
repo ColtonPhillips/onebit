@@ -4,7 +4,7 @@ function SetInvisible() { visible = false; }
 function ToggleVisibility() { visible = !visible; }
 
 font = Font.SmallChatBox;
-color = Font.WarmRed;
+color = Color.WarmRed;
 
 function DrawSetFont(f, cl) {
 	font = f;

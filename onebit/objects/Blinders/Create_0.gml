@@ -13,5 +13,5 @@ blinderData = {
 
 left = blinderData.left;
 right = blinderData.right;
-black = Font.Black;
-red = Font.WarmRed;
+black = Color.Black;
+red = Color.WarmRed;
