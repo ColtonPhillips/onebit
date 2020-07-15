@@ -15,6 +15,7 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"Transition","path":"objects/Transition/Transition.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_2666CD9F","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Music","path":"objects/Music/Music.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":32.0,"resourceVersion":"1.0","name":"inst_665CCCBE","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Transition","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"Controls","path":"objects/Controls/Controls.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_2075C1B9","tags":[],"resourceType":"GMRInstance",},
@@ -77,6 +78,7 @@
   "instanceCreationOrder": [
     {"name":"inst_76EA9710","path":"rooms/RoomPreloaderAndIntro/RoomPreloaderAndIntro.yy",},
     {"name":"inst_100F1C4F","path":"rooms/RoomPreloaderAndIntro/RoomPreloaderAndIntro.yy",},
+    {"name":"inst_665CCCBE","path":"rooms/RoomPreloaderAndIntro/RoomPreloaderAndIntro.yy",},
     {"name":"inst_4CD39F29","path":"rooms/RoomPreloaderAndIntro/RoomPreloaderAndIntro.yy",},
     {"name":"inst_2075C1B9","path":"rooms/RoomPreloaderAndIntro/RoomPreloaderAndIntro.yy",},
     {"name":"inst_603E8D5E","path":"rooms/RoomPreloaderAndIntro/RoomPreloaderAndIntro.yy",},

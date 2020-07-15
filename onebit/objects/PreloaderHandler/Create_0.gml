@@ -10,3 +10,11 @@ fading_in = true;
 my_sprite = layer_sprite_get_id(layer_get_id("TitleAssets"), "ColtonPhillipsPresents");
 layer_sprite_alpha(my_sprite, 0);
 trans_alpha = 0.75;
+
+Music.PlayOnce(Music.SNESFanfare);
+
+SetTimeout(Seconds(2), function () {
+	
+	Music.Loop(Music.SNESTitleMusic);
+	
+});

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"29399efb-cb90-46ac-ac46-199b7a217b6d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "onebit",
-    "path": "onebit.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_BlindersSingleton",

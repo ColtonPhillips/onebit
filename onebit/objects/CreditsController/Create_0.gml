@@ -12,6 +12,10 @@ Additional Art by:
    
 Special Thanks:
    Cody Phillips
+   
+Music + SFX Assets:
+   Juliano Zucareli 
+   #ozuka music
 ';
 
 
