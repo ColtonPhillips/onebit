@@ -3,6 +3,21 @@ if keyboard_check_pressed(vk_delete) {
 	paused = !paused;
 }
 
+if keyboard_check_pressed(vk_space) {
+	var t = GetTextInst(x, y - 6, 100)
+		.SetColor(Color.WarmRed)
+		.SetText("*")
+		.SetMode(Text.Mode.GUI)
+		.SetAlpha(0.5);
+	
+	with (t) {
+		SetTimeout(Seconds(2), function () {
+			instance_destroy();
+		});
+	};
+	
+}
+
 if paused return;
 
 if Controls.GetLeft() xUpdate-= xSpeed;

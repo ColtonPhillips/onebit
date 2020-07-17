@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 13,
+  "bbox_right": 18,
   "bbox_top": 0,
-  "bbox_bottom": 8,
+  "bbox_bottom": 20,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 14,
-  "height": 9,
+  "width": 19,
+  "height": 21,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"e8f0f757-70c5-4b63-a0bf-cb83c5f7b8f2","path":"sprites/s_BlindersSingleton/s_BlindersSingleton.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e8f0f757-70c5-4b63-a0bf-cb83c5f7b8f2","path":"sprites/s_BlindersSingleton/s_BlindersSingleton.yy",},"LayerId":{"name":"29399efb-cb90-46ac-ac46-199b7a217b6d","path":"sprites/s_BlindersSingleton/s_BlindersSingleton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_BlindersSingleton","path":"sprites/s_BlindersSingleton/s_BlindersSingleton.yy",},"resourceVersion":"1.0","name":"e8f0f757-70c5-4b63-a0bf-cb83c5f7b8f2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d64a6999-f5c0-44fa-b917-4ee29d77c7c4","path":"sprites/s_TextObject/s_TextObject.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d64a6999-f5c0-44fa-b917-4ee29d77c7c4","path":"sprites/s_TextObject/s_TextObject.yy",},"LayerId":{"name":"4dfd1927-6e8b-461e-ba19-5239fc33d73f","path":"sprites/s_TextObject/s_TextObject.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_TextObject","path":"sprites/s_TextObject/s_TextObject.yy",},"resourceVersion":"1.0","name":"d64a6999-f5c0-44fa-b917-4ee29d77c7c4","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_BlindersSingleton","path":"sprites/s_BlindersSingleton/s_BlindersSingleton.yy",},
+    "spriteId": {"name":"s_TextObject","path":"sprites/s_TextObject/s_TextObject.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2a7c417b-3083-483c-bc50-ae54b021ee6b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e8f0f757-70c5-4b63-a0bf-cb83c5f7b8f2","path":"sprites/s_BlindersSingleton/s_BlindersSingleton.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e146a107-7871-4e75-9d26-dbb5d7bf3a08","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d64a6999-f5c0-44fa-b917-4ee29d77c7c4","path":"sprites/s_TextObject/s_TextObject.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_BlindersSingleton","path":"sprites/s_BlindersSingleton/s_BlindersSingleton.yy",},
+    "parent": {"name":"s_TextObject","path":"sprites/s_TextObject/s_TextObject.yy",},
     "resourceVersion": "1.3",
-    "name": "s_BlindersSingleton",
+    "name": "s_TextObject",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"29399efb-cb90-46ac-ac46-199b7a217b6d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4dfd1927-6e8b-461e-ba19-5239fc33d73f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Controller",
     "path": "folders/Sprites/Controller.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_BlindersSingleton",
+  "name": "s_TextObject",
   "tags": [],
   "resourceType": "GMSprite",
 }
