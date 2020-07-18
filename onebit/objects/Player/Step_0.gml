@@ -5,10 +5,11 @@ if keyboard_check_pressed(vk_delete) {
 
 if keyboard_check_pressed(vk_space) {
 	var t = GetTextInst(x, y - 6, 100)
-		.SetColor(Color.WarmRed)
-		.SetText("*")
-		.SetMode(Text.Mode.GUI)
-		.SetAlpha(0.5);
+		.SetColor(Color.White)
+		.SetText(string_repeat("S", irandom(4)))
+		.SetMode(Text.Mode.WORLD)
+		.SetFont(random(1) < 0.5 ? Font.LargeChatBox : Font.SmallChatBox)
+		.SetAlpha(0.5+random(0.5));
 	
 	with (t) {
 		SetTimeout(Seconds(2), function () {
