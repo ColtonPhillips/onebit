@@ -2,6 +2,10 @@ ProcessBeginStep();
 if isLocked return;
 
 // Check all buttons (down)
+
+if keyboard_check(screenshot_buttons[0]) || keyboard_check(screenshot_buttons[1]) {
+	screenshot = true;
+}
 if keyboard_check(left_buttons[0]) || keyboard_check(left_buttons[1]) {
 	left = true;
 }
@@ -23,6 +27,9 @@ if left | down | right | up | jump {
 }
 
 // Pressed
+if keyboard_check_pressed(screenshot_buttons[0]) || keyboard_check_pressed(screenshot_buttons[1]) {
+	screenshot_pressed = true;
+}
 if keyboard_check_pressed(left_buttons[0]) || keyboard_check_pressed(left_buttons[1]) {
 	left_pressed = true;
 }
@@ -40,6 +47,9 @@ if keyboard_check_pressed(jump_buttons[0]) || keyboard_check_pressed(jump_button
 }
 
 // Released
+if keyboard_check_released(screenshot_buttons[0]) || keyboard_check_released(screenshot_buttons[1]) {
+	screenshot_released = true;
+}
 if keyboard_check_released(left_buttons[0]) || keyboard_check_released(left_buttons[1]) {
 	left_released = true;
 }

@@ -11,6 +11,7 @@ down_buttons	= [ ord("S"), vk_down ];
 right_buttons	= [ ord("D"), vk_right ];
 up_buttons		= [ ord("W"), vk_up ];
 jump_buttons	= [ vk_lshift, vk_space ];
+screenshot_buttons = [vk_f2, vk_printscreen];
 
 player = Player; // in case i want this to be usable on any object and need actor state info
 
@@ -20,18 +21,21 @@ function ResetButtons() {
 	right	= false;
 	up		= false;
 	jump	= false;
+	screenshot = false;
 	
 	left_pressed	= false;
 	down_pressed	= false;
 	right_pressed	= false;
 	up_pressed		= false;
 	jump_pressed	= false;
+	screenshot_pressed = false;
 	
 	left_released	= false;
 	down_released	= false;
 	right_released	= false;
 	up_released		= false;
 	jump_released	= false;
+	screenshot_released = false;
 	
 	anykey	= false;	
 }
@@ -42,6 +46,10 @@ ResetButtons();
 // Called once, in Begin Step, before player needs to read it.
 function ProcessBeginStep() {
 	ResetButtons();
+}
+
+function GetScreenshot() {
+	return screenshot;
 }
 
 function GetLeft() {
@@ -68,6 +76,10 @@ function GetAnyKey() {
 	return anykey;	
 }
 
+function GetScreenshotPressed() {
+	return screenshot_pressed;
+}
+
 function GetLeftPressed() {
 	return left_pressed;
 }
@@ -86,6 +98,11 @@ function GetUpPressed() {
 
 function GetJumpPressed() {
 	return jump_pressed;	
+}
+
+
+function GetScreenshotReleased() {
+	return screenshot_released;
 }
 
 function GetLeftReleased() {
