@@ -1,18 +1,20 @@
 
-
+// This will cause a bug when it is rendered on the outside of the blinders. 
 if Controls.GetScreenshotReleased() {
-	SaveScreenshot();
+	var screenshotURL = SaveScreenshot();
 	
-	var t = GetTextInst(2, Game.Height - 10, 100)
-		.SetColor(Color.WarmRed)
-		.SetText("Screenshot Saved...")
+	var t = GetTextInst(Game.BlinderWidth + 2, Game.Height - 10, 100)
+		.SetColor(Color.White)
+		.SetText(screenshotURL)
 		.SetMode(Text.Mode.GUI)
 		.SetFont(Font.LargeChatBox)
-		.SetAlpha(0.9);
-	t.vspeed = -0.1;
+		.SetScale(0.4, 0.5)
+		.SetAlpha(0.9)
+		.SetFadeout(4);
+	t.vspeed = -0.04;
 	
 	with (t) {
-		SetTimeout(Seconds(2), function () {
+		SetTimeout(Seconds(4.5), function () {
 			instance_destroy();
 		});
 	};
