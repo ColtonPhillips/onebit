@@ -1,5 +1,3 @@
-
-// This will cause a bug when it is rendered on the outside of the blinders. 
 if Controls.GetScreenshotReleased() {
 	var screenshotURL = SaveScreenshot();
 	
