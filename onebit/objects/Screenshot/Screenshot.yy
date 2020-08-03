@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "onebit",
-    "path": "onebit.yyp",
+    "name": "Singleton",
+    "path": "folders/Objects/Controller/Singleton.yy",
   },
   "resourceVersion": "1.0",
   "name": "Screenshot",
