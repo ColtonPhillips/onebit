@@ -1,7 +1,10 @@
 PresentTime += ((SimSpeed * SecondsPerTick) / SecondsPerDay);
-if (keyboard_key_press(vk_up)) {
-	SimSpeed += 1;	
+if (keyboard_check_pressed(ord("3"))) {
+	SimSpeed /= 2;	
 }
-if (keyboard_key_press(vk_down)) {
-	SimSpeed -= 1;	
+
+if (keyboard_check_pressed(ord("4"))) {
+	SimSpeed *= 2;	
 }
+
+PresentTimeOfDay = PresentTime + 0.25;
