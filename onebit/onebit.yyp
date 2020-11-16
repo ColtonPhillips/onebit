@@ -67,7 +67,7 @@
     {"id":{"name":"CreditsSequenceHandler","path":"objects/CreditsSequenceHandler/CreditsSequenceHandler.yy",},"order":0,},
     {"id":{"name":"o_ShaderTitle","path":"objects/o_ShaderTitle/o_ShaderTitle.yy",},"order":2,},
     {"id":{"name":"s_ChatBoxController","path":"sprites/s_ChatBoxController/s_ChatBoxController.yy",},"order":5,},
-    {"id":{"name":"s_Sun","path":"sprites/s_Sun/s_Sun.yy",},"order":17,},
+    {"id":{"name":"s_Sun","path":"sprites/s_Sun/s_Sun.yy",},"order":1,},
     {"id":{"name":"o_Solid","path":"objects/o_Solid/o_Solid.yy",},"order":0,},
     {"id":{"name":"s_SolidRectangle","path":"sprites/s_SolidRectangle/s_SolidRectangle.yy",},"order":1,},
     {"id":{"name":"RoomTestingChamber","path":"rooms/RoomTestingChamber/RoomTestingChamber.yy",},"order":1,},

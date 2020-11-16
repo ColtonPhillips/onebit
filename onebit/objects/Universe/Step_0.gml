@@ -6,5 +6,3 @@ if (keyboard_check_pressed(ord("3"))) {
 if (keyboard_check_pressed(ord("4"))) {
 	SimSpeed *= 2;	
 }
-
-PresentTimeOfDay = PresentTime + 0.25;

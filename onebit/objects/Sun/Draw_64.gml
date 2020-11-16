@@ -1,1 +1,0 @@
-draw_sprite_stretched(s_Sun,0,x ,y, 4, 4);

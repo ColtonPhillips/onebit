@@ -1,5 +1,5 @@
 x = Game.Width/2;
 y = Game.Height;
-Radius = 112;
+Radius = 110;
 originX = x;
 originY = y;
